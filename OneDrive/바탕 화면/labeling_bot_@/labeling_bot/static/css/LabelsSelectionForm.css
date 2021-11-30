@@ -1,0 +1,39 @@
+label{
+    font-size : 12px;
+    margin-left : 5px;
+    cursor : pointer;
+}
+
+input[type="checkbox"] {
+    vertical-align :middle;
+    cursor : pointer;
+}
+#RepositoriesBox{
+     max-height: 250px;
+     height:auto;
+     overflow-y:scroll;
+     overFlow : auto;
+     border : 1px solid black;
+}
+
+#RepositoriesBox div{
+    border : 1px solid black;
+    display : inline;
+    padding : 3px 5px 5px 5px
+}
+
+.td-2{
+    padding-left : 25px;
+}
+table:not(.td-2) {
+    padding-left : 15px;
+}
+table:first(.td-2) {
+    padding-left : 15px;
+}
+td {
+ height : 30px;
+}
+tr:first-child > td {
+   padding-top : 10px;
+}

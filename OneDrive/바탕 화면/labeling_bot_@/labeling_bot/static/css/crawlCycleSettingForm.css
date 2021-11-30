@@ -1,0 +1,13 @@
+.wrap  div{
+    margin-bottom : 5px;
+
+}
+ .wrap  label{
+    margin-left : 10px;
+    cursor : pointer;
+    vertical-align : middle;
+}
+.wrap  input[type="radio"]{
+    cursor : pointer;
+    vertical-align : middle;
+}

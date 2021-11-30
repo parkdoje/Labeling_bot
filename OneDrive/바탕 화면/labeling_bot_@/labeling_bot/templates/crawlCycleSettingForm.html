@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="static/css/crawlCycleSettingForm.css">
+    <script src='static/js/crawlCycleSettingForm.js'></script>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+</head>
+<body>
+<div>
+    <h1>Labeling Bot</h1>
+    <form method="POST" action="/submit">
+    <div style=" margin:0 auto 0 18%;  width : auto">
+        <h3 style="text-align :left; width : 1000px" >1. How often do you want to update your training data for this Multi-labeling Bot?</h3>
+        <div class="wrap" style="text-align :left; margin-left:40px;">
+            <div><input  id="day1" type="radio" value="0" name="day" ><label for="day1">Once per week</label></div>
+            <div><input  id="day2" type="radio" value="1" name="day" ><label for="day2">Once per 2 weeks</label></div>
+            <div><input  id="day3" type="radio" value="2" name="day" ><label for="day3">Once per month</label></div>
+            <div><input  id="day4" type="radio" value="3" name="day" ><label for="day4">Once per 3 months</label></div>
+            <div><input  id="day5" type="radio" value="4" name="day" ><label for="day5">Once per 6 months</label></div>
+        </div>
+    </div>
+    <div style="margin:0 auto 0 18%; margin-top : 50px;  width : auto">
+        <h3 style="text-align :left" >2. When do you want to update your training data for this Multi-labeling Bot during a day?</h3>
+        <div class="wrap" style="text-align :left; margin-left:40px;">
+            <div><input  id="time1" type="radio"  value="0" name="time" ><label for="time1">6am in local time</label></div>
+            <div><input  id="time2" type="radio"  value="1" name="time" ><label for="time2">12pm in local time</label></div>
+            <div><input  id="time3" type="radio"  value="2" name="time" ><label for="time3">6am in local time</label></div>
+            <div><input  id="time4" type="radio"  value="3" name="time" ><label for="time4">12am in local time</label></div>
+        </div>
+    </div>
+    <div style="text-align :center; margin-top : 60px">
+        <input type="button" value="Previous step" style="height:40px; width:100px">
+        <input type="button" value="Done!!" style="height:40px; width:100px; margin-left : 8px" onclick="OnClickDone()">
+    </div>
+</form>
+</div>
+</body>
+</html>
